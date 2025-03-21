@@ -1,0 +1,1 @@
+See: [this](https://github.com/jona1115/cats_dogs_acceleration/blob/main/documentations/misc/git_branch_name_in_bash_prompt.md)

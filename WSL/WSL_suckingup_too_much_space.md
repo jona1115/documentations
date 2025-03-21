@@ -1,0 +1,1 @@
+See: [this](https://github.com/jona1115/cats_dogs_acceleration/blob/main/documentations/misc/WSL_suckingup_too_much_space.md)
