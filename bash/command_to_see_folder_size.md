@@ -1,0 +1,1 @@
+To see the size of all folders in the currenct directory, run `du -sh * | sort -h`
