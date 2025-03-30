@@ -16,4 +16,7 @@ conda env remove --name xxx
 
 Export env:
 conda env export > environment.yml
+
+Recreate env:
+conda env create -f environment.yml
 ```
