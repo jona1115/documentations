@@ -1,3 +1,4 @@
+```
 Create new environment:
 conda create -n "name_of_env"
 
@@ -15,3 +16,4 @@ conda env remove --name xxx
 
 Export env:
 conda env export > environment.yml
+```
