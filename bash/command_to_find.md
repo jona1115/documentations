@@ -24,3 +24,6 @@ If `-Hn` gives you output that is too much stuff, `-l` will also work and only s
 ```
 find . -type f -exec grep -l "main" {} \; | grep -v "CMake"
 ```
+
+### Additional flags:
+- `-i` flag for `grep` will make the grep case insensitive.
