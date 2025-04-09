@@ -13,6 +13,12 @@ find . -type f -exec grep -Hn "main" {} \;
 ```
 Searches (recursively) files with the word "main" within it. `-H` prints the filename; `-n` prints the line number where the pattern is found.
 
+### Or search within files of certain types (e.g., c code):
+```
+find . -type f -name "*.c" -exec grep -l "single_sphere_bounds" {} \;
+```
+This will find the string "single_sphere_bounds" in all `.c` files.
+
 ### And if you want to exclude certain files:
 ```
 find . -type f -exec grep -Hn "main" {} \; | grep -v "CMake"
