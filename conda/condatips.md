@@ -1,6 +1,7 @@
 ```
 Create new environment:
 conda create -n "name_of_env"
+conda create -n "trans2" python=3.11
 
 Activate environment:
 conda activate name_of_env
